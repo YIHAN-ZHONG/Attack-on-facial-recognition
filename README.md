@@ -11,5 +11,3 @@ Most of the time these applications ask you to strike different poses in the pic
 We suppose that we have a function to extract a face from a larger image, and then a function  Sig  which built a signature in  𝑅𝑑  from the face. We then use the usual  𝐿2  distance to compare faces. Better, we compare the new face to all the signatures of all the faces of the known personn.
 
 D(𝑋,Person 1)=1|Person 1|∑𝐼∈Person 1||𝑋−𝐼||2 
-
-This notebook has been partially completed to give you a reasonable base to begin the project. You don't have to use everything I added to this notebook and do everything on your own if you want to.
